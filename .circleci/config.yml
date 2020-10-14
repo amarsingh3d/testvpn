@@ -4,30 +4,30 @@ jobs:
     branches:
       ignore:
         - /(test|staging|production)/
-    working_directory: ~/torstar-web-automation
+    working_directory: ~/testvpn
     environment:
       VPN_CLIENT_CONFIG: tmp/config.ovpn
     shell: /bin/bash --login
     docker:
-      - image: circleci/openjdk:8-jdk-stretch-browsers
-    steps:
+      - image: ubuntu-1604:202004-01
+        #steps:
       # Machine Setup
-      - checkout
-      - run:
-          name: Set Xvfb to run UI tests headless
-          working_directory: ~/centriqtechnology/centriq-web
-          command: nohup Xvfb -ac :99 -screen 0 1936x1056x24&ps -ef|grep Xvfb
-          background: true
-      - run:
-          name: Install updates
-          command: sudo apt-get update --fix-missing
-      - run:
-          name: Install manven
-          command: sudo apt-get install maven
+      # - checkout
+      #- run:
+      #    name: Set Xvfb to run UI tests headless
+      #    working_directory: ~/centriqtechnology/centriq-web
+      #    command: nohup Xvfb -ac :99 -screen 0 1936x1056x24&ps -ef|grep Xvfb
+      #    background: true
+      #- run:
+      #    name: Install updates
+      #    command: sudo apt-get update --fix-missing
+      #- run:
+      #    name: Install manven
+      #    command: sudo apt-get install maven
       # VPN setup
       - run:
           name: Install OpenVPN
-          command: sudo apt-get install openvpn -y
+          command: sudo apt update && sudo apt-get install openvpn -y 
       - run:
           name: Check IP before VPN connection
           command: |
