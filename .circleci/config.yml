@@ -27,7 +27,9 @@ jobs:
       # VPN setup
       - run:
           name: Install OpenVPN
-          command: sudo apt update && sudo apt-get install openvpn -y 
+          command: |
+            sudo apt update 
+            sudo apt-get install openvpn -y
       - run:
           name: Check IP before VPN connection
           command: |
