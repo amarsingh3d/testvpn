@@ -60,9 +60,9 @@ jobs:
             done
             echo ""
             echo "Count: $count"
-            sudo echo $VPN_CLIENT_CONFIG | base64 --decode > /tmp/config.ovpn
+            echo $VPN_CLIENT_CONFIG | base64 --decode > /tmp/config.ovpn
             printf "user\n$VPN_PASSWORD" > /tmp/vpn.login
-            sudo openvpn --config /tmp/config.ovpn --auth-user-pass /tmp/vpn.login \
+            openvpn --config /tmp/config.ovpn --auth-user-pass /tmp/vpn.login \
             --route $phone_home 255.255.255.255 net_gateway \
             --route 169.254.0.0 255.255.0.0 net_gateway
 
