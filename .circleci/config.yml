@@ -30,6 +30,7 @@ jobs:
           command: |
             apt update 
             apt install net-tools -y
+            apt install curl -y
             apt-get install openvpn -y
       - run:
           name: Check IP before VPN connection
