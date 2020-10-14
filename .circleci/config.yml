@@ -75,16 +75,16 @@ jobs:
             cat /etc/resolv.conf
             curl checkip.amazonaws.com
     # Run tests
-      - run:
-          name: Pages_Suite Browser Stack(MojaveX_Safari)
-          command:  mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/Local_BStack/Pages_Suite_Catalina_Safari.xml --fail-never test
+    #      - run:
+    #     name: Pages_Suite Browser Stack(MojaveX_Safari)
+    #     command:  mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/Local_BStack/Pages_Suite_Catalina_Safari.xml --fail-never test
       # Teardown
-      - run:
-          name: Disconnect from OpenVPN
-          command: sudo killall openvpn || true
-          when: always
+      # - run:
+      #   name: Disconnect from OpenVPN
+      #   command: sudo killall openvpn || true
+      #   when: always
       # Save test results
-      - store_test_results:
-          path: ~/torstar-web-automation/target/test-output/emailable-report.html
-      - store_artifacts:
-          path: ~/torstar-web-automation/target/test-output/emailable-report.html
+      #- store_test_results:
+      #   path: ~/torstar-web-automation/target/test-output/emailable-report.html
+      #- store_artifacts:
+      #   path: ~/torstar-web-automation/target/test-output/emailable-report.html
