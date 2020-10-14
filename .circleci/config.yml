@@ -29,6 +29,7 @@ jobs:
           name: Install OpenVPN
           command: |
             apt update 
+            apt install net-tools -y
             apt-get install openvpn -y
       - run:
           name: Check IP before VPN connection
