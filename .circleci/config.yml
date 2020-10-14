@@ -10,7 +10,7 @@ jobs:
     shell: /bin/bash --login
     docker:
       - image: ubuntu-1604:202004-01
-        steps:
+    steps:
       # Machine Setup
       # - checkout
       #- run:
