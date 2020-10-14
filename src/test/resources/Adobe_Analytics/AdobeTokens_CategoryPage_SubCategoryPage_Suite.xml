@@ -1,0 +1,355 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="AdobeTokens_Suite" thread-count="1"  parallel="tests">
+	<test name="Category_Canada">
+		<parameter name="name" value="Category_Canada"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=news|canada"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/news/canada.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Category_Politics">
+		<parameter name="name" value="Category_Politics"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=politics"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/politics.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Category_World">
+		<parameter name="name" value="Category_World"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=news|world"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/news/world.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Category_Opinion">
+		<parameter name="name" value="Category_Opinion"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=opinion"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/opinion.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Category_Life">
+		<parameter name="name" value="Category_Life"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=life"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/life.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Category_Sports">
+		<parameter name="name" value="Category_Sports"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=sports"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/sports.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Category_Entertainment">
+		<parameter name="name" value="Category_Entertainment"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=entertainment"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/entertainment.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+	<test name="Category_Business">
+		<parameter name="name" value="Category_Business"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=business"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/business.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Category_Podcasts">
+		<parameter name="name" value="Category_Podcasts"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=podcasts"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/podcasts.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Category_News_GTA">
+		<parameter name="name" value="Category_New_GTA"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=news|gta"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/news/gta.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_SubCategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Category_News_World_Africa">
+		<parameter name="name" value="Category_News_World_Africa"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=news|world|africa"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/news/world/africa.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Category_Nationalization_Vancouver_Sports">
+		<parameter name="name" value="Category_Nationalization_Vancouver_Sports"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=vancouver"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=sports"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/vancouver/sports.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Category_Nationalization_Vancouver_Politics_Provincial">
+		<parameter name="name" value="Category_Nationalization_Vancouver_Politics_Provincial"/>
+		<parameter name="browser" value="Local_Chrome_Console"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=category"/>
+		<parameter name="location" value="location=vancouver"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="regWall" value="regWall"/>
+		<parameter name="primaryCategory" value="primaryCategory=politics|provincial"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/vancouver/politics/provincial.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_CategoryPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	  	           	 
+</suite>

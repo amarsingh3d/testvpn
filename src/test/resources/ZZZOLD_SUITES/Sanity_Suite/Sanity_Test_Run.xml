@@ -1,0 +1,89 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Regression_Suite_Sanity" thread-count="1"  parallel="tests">
+    <test name="REG-199">
+		<classes>
+    	<class name="com.thestar.sanity.NewsLettersPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="IAN-224">
+		<classes>
+    	<class name="com.thestar.sanity.NationalExpansionCity_TestCase"/>
+ 		</classes>
+   	</test>
+   	  	  	
+   	<test name="SUB-316">
+		<classes>
+    	<class name="com.thestar.sanity.ExpressCheckoutPage_TestCase"/>
+ 		</classes>
+   	</test>
+	
+	<test name="REG-294">
+		<classes>
+    	<class name="com.thestar.sanity.TimestampConversation_TestCase"/>
+ 		</classes>
+   	</test>     	
+   	
+   	<test name="CON-146">
+		<classes>
+    	<class name="com.thestar.sanity.CON146_EPCPageLoad_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Article_Page">
+		<classes>
+    	<class name="com.thestar.sanity.ArticlePage_TestCase"/>
+ 		</classes>
+   	</test> 	
+   	
+   	<test name="Home_Page">
+		<classes>
+    	<class name="com.thestar.sanity.HomePage_TestCase"/>
+ 		</classes>
+   	</test> 
+   	
+   	<test name="Anonymous_Smart_Assets">
+		<classes>
+    	<class name="com.thestar.sanity.AnonymousSmartAssets_TestCase"/>
+ 		</classes>
+   	</test> 
+   	
+   	<test name="Registered_Smart_Assets">
+		<classes>
+    	<class name="com.thestar.sanity.RegisteredSmartAssets_TestCase"/>
+ 		</classes>
+   	</test> 
+   	
+   	<test name="Registration_Flow">
+		<classes>
+    	<class name="com.thestar.sanity.RegistrationFlow_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Subscription_Flow_CreditCard">
+		<classes>
+    	<class name="com.thestar.sanity.SubscriptionFlowCreditCard_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Subscription_Flow_PayPal">
+		<classes>
+    	<class name="com.thestar.sanity.SubscriptionFlowPayPal_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="PGO-327">
+		<classes>
+    	<class name="com.thestar.sanity.BlueUnderline_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Parsely_Liftniter">
+		<classes>
+    	<class name="com.thestar.sanity.Parsley_Li_Validation_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	    	   	   
+</suite>

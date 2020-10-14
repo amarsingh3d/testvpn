@@ -1,0 +1,136 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Regression_Suite_Subscription" thread-count="30"  parallel="tests">
+	<test name="Anonymous_Subscription_Chrome">
+	<parameter name="browser" value="Chrome"/>
+	<parameter name="user" value="Anonymous_Chrome_Subscription Regression Suite"/>
+		<classes>
+    	<class name="com.thestar.subscription.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Anonymous_Subscription_Firefox">
+	<parameter name="browser" value="Firefox"/>
+	<parameter name="user" value="Anonymous_Firefox_Subscription Regression Suite"/>
+		<classes>
+    	<class name="com.thestar.subscription.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Anonymous_Subscription_Edge">
+	<parameter name="browser" value="Edge"/>
+	<parameter name="user" value="Anonymous_Edge_Subscription Regression Suite"/>
+		<classes>
+    	<class name="com.thestar.subscription.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Anonymous_Subscription_IE11">
+	<parameter name="browser" value="IE"/>
+	<parameter name="user" value="Anonymous_IE11_Subscription Regression Suite"/>
+		<classes>
+    	<class name="com.thestar.subscription.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	
+    <test name="Registered_Subscription_Chrome">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="user" value="Registered_Chrome_Subscription Regression Suite"/>
+     	<classes>
+        <class name="com.thestar.subscription.RegisteredSubscriptionTestCases"/>
+     	</classes>
+  	 </test>
+  	 
+  	<test name="Registered_Subscription_Firefox">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="user" value="Registered_Firefox_Subscription Regression Suite"/>
+     	<classes>
+        <class name="com.thestar.subscription.RegisteredSubscriptionTestCases"/>
+     	</classes>
+  	</test>
+  	 
+   	<test name="Registered_Subscription_Edge">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="user" value="Registered_Edge_Subscription Regression Suite"/>
+     	<classes>
+        <class name="com.thestar.subscription.RegisteredSubscriptionTestCases"/>
+     	</classes>
+  	</test>
+  	 
+  	<test name="Registered_Subscription_IE11">
+    <parameter name="browser" value="IE"/>
+    <parameter name="user" value="Registered_IE11_Subscription Regression Suite"/>
+     	<classes>
+        <class name="com.thestar.subscription.RegisteredSubscriptionTestCases"/>
+     	</classes>
+  	 </test>
+  	 
+    
+   	<test name="Basic_Subscription_Chrome">
+   	<parameter name="browser" value="Chrome"/>
+   	<parameter name="user" value="Basic_Chrome_Subscription Regression Suite"/>
+     	<classes>
+     	<class name="com.thestar.subscription.BasicSubscriptionTestCases"/>
+     	</classes>
+   	</test>
+   	
+   	<test name="Basic_Subscription_Firefox">
+   	<parameter name="browser" value="Firefox"/>
+   	<parameter name="user" value="Basic_Firefox_Subscription Regression Suite"/>
+     	<classes>
+     	<class name="com.thestar.subscription.BasicSubscriptionTestCases"/>
+     	</classes>
+   	</test>
+   	
+   	<test name="Basic_Subscription_Edge">
+   	<parameter name="browser" value="Edge"/>
+   	<parameter name="user" value="Basic_Edge_Subscription Regression Suite"/>
+     	<classes>
+     	<class name="com.thestar.subscription.BasicSubscriptionTestCases"/>
+     	</classes>
+   	</test>
+   	
+   	<test name="Basic_Subscription_IE11">
+   	<parameter name="browser" value="IE"/>
+   	<parameter name="user" value="Basic_IE11_Subscription Regression Suite"/>
+     	<classes>
+     	<class name="com.thestar.subscription.BasicSubscriptionTestCases"/>
+     	</classes>
+   	</test>
+   	
+ 
+    <test name="Premium_Subscription_Chrome">
+  	<parameter name="browser" value="Chrome"/>
+  	<parameter name="user" value="Premium_Chrome_Subscription Regression Suite"/>
+     	<classes>
+        <class name="com.thestar.subscription.PremiumSubscriptionTestCases"/>
+     	</classes>
+   	</test>
+   	
+   	<test name="Premium_Subscription_Firefox">
+  	<parameter name="browser" value="Firefox"/>
+  	<parameter name="user" value="Premium_Firefox_Subscription Regression Suite"/>
+     	<classes>
+        <class name="com.thestar.subscription.PremiumSubscriptionTestCases"/>
+     	</classes>
+   	</test>
+   	
+   	<test name="Premium_Subscription_Edge">
+  	<parameter name="browser" value="Edge"/>
+  	<parameter name="user" value="Premium_Edge_Subscription Regression Suite"/>
+     	<classes>
+        <class name="com.thestar.subscription.PremiumSubscriptionTestCases"/>
+     	</classes>
+   	</test>
+   	
+   	<test name="Premium_Subscription_IE11">
+  	<parameter name="browser" value="IE"/>
+  	<parameter name="user" value="Premium_IE11_Subscription Regression Suite"/>
+     	<classes>
+        <class name="com.thestar.subscription.PremiumSubscriptionTestCases"/>
+     	</classes>
+   	</test>
+   	
+    	   
+</suite>

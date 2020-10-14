@@ -1,0 +1,116 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Regression_Suite_Sanity_Subscription" thread-count="1"  parallel="tests">
+    <test name="NewsLetters_TestCase">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+    	<class name="com.thestar.sanity.NewsLettersPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="SUB-316">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+    	<class name="com.thestar.sanity.ExpressCheckoutPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+   	<test name="Article_Page">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+    	<class name="com.thestar.sanity.ArticlePage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Home_Page">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+    	<class name="com.thestar.sanity.HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Registered_Smart_Assets">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+    	<class name="com.thestar.sanity.RegisteredSmartAssets_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Registration_Flow">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+    	<class name="com.thestar.sanity.RegistrationFlow_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Subscription_Flow_CreditCard">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+    	<class name="com.thestar.sanity.SubscriptionFlowCreditCard_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Registered user Subscription_Flow_PayPal">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+    	<class name="com.thestar.sanity.RegisteredUserSubscriptionFlowPayPal_TestCase"/>
+ 		</classes>
+   	</test>
+
+	<test name="Registered user Subscription_Flow_CreditCard">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+			<class name="com.thestar.sanity.RegisteredUserSubscriptionFlowCreditCard_TestCase"/>
+		</classes>
+	</test>
+
+	<test name="Subscription_Flow_PayPal">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+			<class name="com.thestar.sanity.SubscriptionFlowPayPal_TestCase"/>
+		</classes>
+	</test>
+
+	<test name="Subscription_DAPS_Flow">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+			<class name="com.thestar.sanity.DAPSFlow_TestCase"/>
+		</classes>
+	</test>
+
+   	<test name="MobileInlay_TestCases">
+		<parameter name="browser" value="Local_Safari"/>
+		<classes>
+    	<class name="com.thestar.sanity.MobileInlay_TestCase"/>
+ 		</classes>
+   	</test>
+
+	<test name="Anonymous_Subscription_Chrome">
+		<parameter name="name" value="Anonymous_Subscription_Chrome"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value=""/>
+		<classes>
+			<class name="com.thestar.sanity.AnonymousSubscriptionTestCases"/>
+		</classes>
+	</test>
+
+	<test name="Registered_Subscription_Chrome">
+		<parameter name="name" value="Registered_Subscription_Chrome"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value=""/>
+		<classes>
+			<class name="com.thestar.sanity.RegisteredSubscription_TestCases"/>
+		</classes>
+	</test>
+
+	<test name="Basic_Subscription_Chrome">
+		<parameter name="name" value="Basic_Subscription_Chrome"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value=""/>
+		<classes>
+			<class name="com.thestar.sanity.BasicSubscription_TestCases"/>
+		</classes>
+	</test>
+   	    	   	   
+</suite>

@@ -1,0 +1,100 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Regression_Suite_Subscription" thread-count="1"  parallel="tests">
+  	<test name="Topic_Page">
+	<parameter name="name" value="Topic_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.TopicPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Author_Page">
+	<parameter name="name" value="Author_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.AuthorPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Cartoon_Page">
+	<parameter name="name" value="Cartoon_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.CartoonPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Video_Page">
+	<parameter name="name" value="Video_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.VideoPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="SlideShow_Page">
+	<parameter name="name" value="SlideShow_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.SlideShowPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="SponsoredArticle_Page">
+	<parameter name="name" value="SponsoredArticle_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.SponsoredArticlePage_TestCase"/>
+ 		</classes>
+   	</test>   	           	 
+   	
+   	
+   	<test name="Subscription_Flow_Credit_Card">
+	<parameter name="name" value="Subscription_Flow_Credit_Card"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.rdr.sanity.RDRSubscriptionFlowCreditCard_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Subscription_Flow_PayPal">
+	<parameter name="name" value="Subscription_Flow_PayPal"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.rdr.sanity.RDRSubscriptionFlowPayPal_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Subscription_Flow_PayPal">
+	<parameter name="name" value="Subscription_Flow_PayPal"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.rdr.sanity.RDRSubscriptionFlowPayPal_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="RDRSmartAssets">
+		<classes>
+    	<class name="com.thestar.sanity.RDRSmartAssets_TestCase"/>
+ 		</classes>
+   	</test> 
+ 	   	   
+</suite>

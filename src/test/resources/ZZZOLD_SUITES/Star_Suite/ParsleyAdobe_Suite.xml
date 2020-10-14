@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Full_Sanity_Suite" thread-count="1"  parallel="tests">
+	 		  	
+   	<test name="Parsley_Liftniter_Validation">
+	<parameter name="name" value="Parsley_Liftniter_Validation"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Parsley_Li_Validation_TestCase"/>
+ 		</classes>
+   	</test>
+   	   	
+     	  	
+	<test name="Adobe_Analytics_Tracking__Chrome_Home">
+	<parameter name="name" value="Chrome_Home"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	   	           	 
+</suite>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Regression_Suite_Subscription" thread-count="1"  parallel="tests">
+	<test name="Anonymous Smart Asset Test Cases">
+		<classes>
+    	<class name="com.thestar.sanity.AnonymousSmartAssets_TestCase"/>
+ 		</classes>
+   	</test>
+   	   	   	
+    <test name="Registered Smart Asset Test Cases">
+		<classes>
+    	<class name="com.thestar.sanity.RegisteredSmartAssets_TestCase"/>
+ 		</classes>
+   	</test>
+  	  	
+</suite>

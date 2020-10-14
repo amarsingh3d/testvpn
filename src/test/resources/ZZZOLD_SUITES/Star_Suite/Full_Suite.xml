@@ -1,0 +1,267 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Full_Sanity_Suite" thread-count="1"  parallel="tests">
+	<test name="PGO-327">
+	<parameter name="name" value="PGO-327"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.BlueUnderline_TestCase"/>
+ 		</classes>
+   	</test>
+		
+	
+	<test name="Anonymous_Subscription_Chrome">
+	<parameter name="name" value="Anonymous_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	   	
+    <test name="Registered_Subscription_Chrome">
+	<parameter name="name" value="Registered_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+     	<classes>
+        <class name="com.thestar.sanity.RegisteredSubscription_TestCases"/>
+     	</classes>
+  	 </test>
+  	 
+  	   
+   	<test name="Basic_Subscription_Chrome">
+	<parameter name="name" value="Basic_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com/"/>
+     	<classes>
+     	<class name="com.thestar.sanity.BasicSubscription_TestCases"/>
+     	</classes>
+   	</test>
+   	
+ 	
+	<test name="Article_Page">
+	<parameter name="name" value="Article_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.ArticlePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Home_Page">
+	<parameter name="name" value="Home_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Amp_Pages">
+	<parameter name="name" value="Amp_Pages"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.AmpPages_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Topic_Page">
+	<parameter name="name" value="Topic_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.TopicPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Author_Page">
+	<parameter name="name" value="Author_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.AuthorPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Cartoon_Page">
+	<parameter name="name" value="Cartoon_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.CartoonPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Video_Page">
+	<parameter name="name" value="Video_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.VideoPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="SlideShow_Page">
+	<parameter name="name" value="SlideShow_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.SlideShowPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="SponsoredArticle_Page">
+	<parameter name="name" value="SponsoredArticle_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.SponsoredArticlePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="CitiesLocalPage">
+	<parameter name="name" value="CitiesLocalPage_TestCase"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.CitiesLocalPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="REG-199">
+	<parameter name="name" value="REG-199"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.NewsLettersPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	   	   	
+   	<test name="IAN-224">
+	<parameter name="name" value="IAN-224"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.NationalExpansionCity_TestCase"/>
+ 		</classes>
+   	</test>
+  
+  		  	
+   	<test name="Parsley_Liftniter_Validation">
+	<parameter name="name" value="Parsley_Liftniter_Validation"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.Parsley_Li_Validation_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+     	
+  	<test name="SUB-316">
+	<parameter name="name" value="SUB-316"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.ExpressCheckoutPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Social_Login_Face_Book">
+	<parameter name="name" value="Social_Login_Face_Book"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.Social_Login_FaceBook_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="NewUserRegistration">
+	<parameter name="name" value="NewUserRegistration"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.RegistrationFlow_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Subscription_Flow_Credit_Card">
+	<parameter name="name" value="Subscription_Flow_Credit_Card"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.SubscriptionFlowCreditCard_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Subscription_Flow_PayPal">
+	<parameter name="name" value="Subscription_Flow_PayPal"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.SubscriptionFlowPayPal_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Doctor_DB">
+	<parameter name="name" value="Doctor_DB"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.DoctorDataBase_TestCase"/>
+ 		</classes>
+   	</test>
+      	   	
+   	
+    <test name="Anonymous_Smart_Assets">
+		<classes>
+    	<class name="com.thestar.sanity.AnonymousSmartAssets_TestCase"/>
+ 		</classes>
+   	</test> 
+   	
+   	
+   	<test name="Registered_Smart_Assets">
+		<classes>
+    	<class name="com.thestar.sanity.RegisteredSmartAssets_TestCase"/>
+ 		</classes>
+   	</test> 
+   	
+   	
+   	<test name="ie11_Sign_in_Issue">
+	<parameter name="name" value="ie11_Sign_in_Issue"/>
+	<parameter name="browser" value="Local_IE11"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.ie11_Sign_in_Issue_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+     	  	
+	<test name="Adobe_Analytics_Tracking__Chrome_Home">
+	<parameter name="name" value="Chrome_Home"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	   	           	 
+</suite>

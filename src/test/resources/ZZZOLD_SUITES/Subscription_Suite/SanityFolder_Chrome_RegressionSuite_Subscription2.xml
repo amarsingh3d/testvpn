@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Regression_Suite_Subscription" thread-count="1"  parallel="tests">
+	<test name="Anonymous_Subscription_Chrome">
+	<parameter name="name" value="Anonymous_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	   	
+    <test name="Registered_Subscription_Chrome">
+	<parameter name="name" value="Registered_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+     	<classes>
+        <class name="com.thestar.sanity.RegisteredSubscription_TestCases"/>
+     	</classes>
+  	 </test>
+  	 
+  	   
+   	<test name="Basic_Subscription_Chrome">
+	<parameter name="name" value="Basic_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+     	<classes>
+     	<class name="com.thestar.sanity.BasicSubscription_TestCases"/>
+     	</classes>
+   	</test>
+  	  	   	   
+</suite>

@@ -1,0 +1,212 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="AdobeTokens_Suite" thread-count="1"  parallel="tests">
+	<test name="Home_Location_NotSpecified">
+		<parameter name="name" value="Home_Location_NotSpecified"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=home"/>
+		<parameter name="channel" value="channel=home"/>
+		<parameter name="template" value="template=home-v1"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Home_Location_Vancouver">
+		<parameter name="name" value="Home_Location_Vancouver"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=home"/>
+		<parameter name="channel" value="channel=home"/>
+		<parameter name="template" value="template=home-v1"/>
+		<parameter name="location" value="location=vancouver"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/vancouver.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Home_Location_Toronto">
+		<parameter name="name" value="Home_Location_Toronto"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=home"/>
+		<parameter name="channel" value="channel=home"/>
+		<parameter name="template" value="template=home-v1"/>
+		<parameter name="location" value="location=toronto"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/toronto.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Home_Location_Calgary">
+		<parameter name="name" value="Home_Location_Calgary"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=home"/>
+		<parameter name="channel" value="channel=home"/>
+		<parameter name="template" value="template=home-v1"/>
+		<parameter name="location" value="location=calgary"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/calgary.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Home_Location_Edmonton">
+		<parameter name="name" value="Home_Location_Edmonton"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=home"/>
+		<parameter name="channel" value="channel=home"/>
+		<parameter name="template" value="template=home-v1"/>
+		<parameter name="location" value="location=edmonton"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/edmonton.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Home_Location_Winnipeg">
+		<parameter name="name" value="Home_Location_Winnipeg"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=home"/>
+		<parameter name="channel" value="channel=home"/>
+		<parameter name="template" value="template=home-v1"/>
+		<parameter name="location" value="location=winnipeg"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/winnipeg.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Home_Location_Ottawa">
+		<parameter name="name" value="Home_Location_Ottawa"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=home"/>
+		<parameter name="channel" value="channel=home"/>
+		<parameter name="template" value="template=home-v1"/>
+		<parameter name="location" value="location=ottawa"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/ottawa.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Home_Location_Halifax">
+		<parameter name="name" value="Home_Location_Halifax"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=home"/>
+		<parameter name="channel" value="channel=home"/>
+		<parameter name="template" value="template=home-v1"/>
+		<parameter name="location" value="location=halifax"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/halifax.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	  	           	 
+</suite>

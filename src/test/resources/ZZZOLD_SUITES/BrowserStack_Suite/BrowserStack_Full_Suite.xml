@@ -1,0 +1,174 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Adobe_Analytics_Tracking" thread-count="1"  parallel="tests">
+	
+	<test name="Article_Page">
+	<parameter name="name" value="Article_Page"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.ArticlePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Home_Page">
+	<parameter name="name" value="Home_Page"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="CON-146">
+	<parameter name="name" value="CON-146"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.CON146_EPCPageLoad_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="IAN-224">
+	<parameter name="name" value="IAN-224"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.NationalExpansionCity_TestCase"/>
+ 		</classes>
+   	</test>
+	
+	
+	<test name="ie11_Sign_in_Issue">
+	<parameter name="name" value="ie11_Sign_in_Issue"/>
+	<parameter name="browser" value="Windows7_IE11"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.ie11_Sign_in_Issue_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Parsley_Liftniter_Validation">
+	<parameter name="name" value="Parsley_Liftniter_Validation"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Parsley_Li_Validation_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	 
+   	<test name="PGO-327">
+	<parameter name="name" value="PGO-327"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.BlueUnderline_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="REG-199">
+	<parameter name="name" value="REG-199"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.NewsLettersPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="REG-210">
+	<parameter name="name" value="REG-210"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.REG210_SubscribeAllNewsLetters_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="REG-294">
+	<parameter name="name" value="REG-294"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.TimestampConversation_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	   	
+   	<test name="SUB-316">
+	<parameter name="name" value="SUB-316"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.ExpressCheckoutPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+    	
+	<test name="Adobe_Analytics_Tracking_Windows7_Chrome_Home">
+	<parameter name="name" value="Windows7_Chrome_Home"/>
+	<parameter name="browser" value="Windows7_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	  	
+   	<test name="Adobe_Analytics_Tracking_Windows7_Firefox_Home">
+	<parameter name="name" value="Windows7_Firefox_Home"/>
+	<parameter name="browser" value="Windows7_Firefox"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+  
+     	
+   	<test name="Adobe_Analytics_Tracking_Windows10_Chrome_Home">
+	<parameter name="name" value="Windows10_Chrome_Home"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	  	
+   	<test name="Adobe_Analytics_Tracking_Windows10_Firefox_Home">
+	<parameter name="name" value="Windows10_Firefox_Home"/>
+	<parameter name="browser" value="Windows10_Firefox"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+      	
+   	
+   	<test name="Adobe_Analytics_Tracking_Windows10_Edge_Home">
+	<parameter name="name" value="Windows10_Edge_Home"/>
+	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Adobe_Analytics_Tracking_MojaveX_Safari_Home">
+	<parameter name="name" value="MojaveX_Safari_Home"/>
+	<parameter name="browser" value="MojaveX_Safari"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+             	 
+</suite>

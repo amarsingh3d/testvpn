@@ -1,0 +1,255 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Full_Sanity_Suite" thread-count="1"  parallel="tests">
+	<test name="BlueUnderline text test">
+	<parameter name="name" value="BlueUnderline text test"/>
+	<parameter name="browser" value="Local_Safari"/>
+	<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.BlueUnderline_TestCase"/>
+ 		</classes>
+   	</test>
+	
+	<test name="Anonymous_Subscription_Chrome">
+	<parameter name="name" value="Anonymous_Subscription_Chrome"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+
+    <test name="Registered_Subscription_Chrome">
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<parameter name="name" value="Registered_Subscription_Chrome"/>
+     	<classes>
+        <class name="com.thestar.sanity.RegisteredSubscription_TestCases"/>
+     	</classes>
+  	 </test>
+
+
+   	<test name="Basic_Subscription_Chrome">
+		<parameter name="name" value="Basic_Subscription_Chrome"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+     	<classes>
+     	<class name="com.thestar.sanity.BasicSubscription_TestCases"/>
+     	</classes>
+   	</test>
+
+	<test name="Article_Page">
+		<parameter name="name" value="Article_Page"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.ArticlePage_TestCase"/>
+ 		</classes>
+   	</test>
+
+	<test name="EndOfArticle_TestCase">
+		<parameter name="name" value="EndOfArticle_TestCase"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+			<class name="com.thestar.sanity.EndOfArticle_TestCase"/>
+		</classes>
+	</test>
+
+   	<test name="Home_Page">
+		<parameter name="name" value="Home_Page"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Amp_Pages">
+		<parameter name="name" value="Amp_Pages"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.AmpPages_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Topic_Page">
+		<parameter name="name" value="Topic_Page"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.TopicPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Author_Page">
+		<parameter name="name" value="Author_Page"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.AuthorPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Cartoon_Page">
+	<parameter name="name" value="Cartoon_Page"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.CartoonPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Video_Page">
+	<parameter name="name" value="Video_Page"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.VideoPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="SlideShow_Page">
+	<parameter name="name" value="SlideShow_Page"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.SlideShowPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="SponsoredArticle_Page">
+	<parameter name="name" value="SponsoredArticle_Page"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.SponsoredArticlePage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="CitiesLocalPage">
+	<parameter name="name" value="CitiesLocalPage_TestCase"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.CitiesLocalPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="EmeterCallCheck">
+	<parameter name="name" value="EmeterCallCheck_TestCase"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.EmeterCallCheck_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="NewsLetters page TestCase">
+	<parameter name="name" value="NewsLetters_TestCase"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.NewsLettersPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+  	<test name="ExpressCheckoutPage_TestCase">
+	<parameter name="name" value="ExpressCheckoutPage_TestCase"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.ExpressCheckoutPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Social_Login_FaceBook">
+	<parameter name="name" value="Social_Login_Face_Book"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.Social_Login_FaceBook_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+   	<test name="Subscription_Flow_Credit_Card">
+	<parameter name="name" value="Subscription_Flow_Credit_Card"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.SubscriptionFlowCreditCard_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+   	<test name="Subscription_Flow_PayPal">
+	<parameter name="name" value="Subscription_Flow_PayPal"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.SubscriptionFlowPayPal_TestCase"/>
+ 		</classes>
+   	</test>
+
+	<test name="Registered user Subscription_Flow_PayPal">
+	<parameter name="name" value="Subscription Flow PayPal payment"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+			<class name="com.thestar.sanity.RegisteredUserSubscriptionFlowPayPal_TestCase"/>
+		</classes>
+	</test>
+
+	<test name="DAPS flow testing">
+		<parameter name="name" value="DAPS flow testing"/>
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+			<class name="com.thestar.sanity.DAPSFlow_TestCase"/>
+		</classes>
+	</test>
+
+	<test name="Registered user Subscription_Flow_CreditCard">
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+			<class name="com.thestar.sanity.RegisteredUserSubscriptionFlowCreditCard_TestCase"/>
+		</classes>
+	</test>
+
+   	<test name="Registered_Smart_Assets">
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.RegisteredSmartAssets_TestCase"/>
+ 		</classes>
+   	</test>
+
+	<test name="MobileInlay_TestCase">
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+			<class name="com.thestar.sanity.MobileInlay_TestCase"/>
+		</classes>
+	</test>
+
+	<test name="OnboardingPage_TestCase">
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+			<class name="com.thestar.sanity.OnBoardingPage_TestCase"/>
+		</classes>
+	</test>
+
+	<test name="SearchPage_TestCase">
+		<parameter name="browser" value="Local_Safari"/>
+		<parameter name="url" value="https://qa4.thestar.com"/>
+		<classes>
+			<class name="com.thestar.sanity.SearchPage_TestCase"/>
+		</classes>
+	</test>
+
+</suite>

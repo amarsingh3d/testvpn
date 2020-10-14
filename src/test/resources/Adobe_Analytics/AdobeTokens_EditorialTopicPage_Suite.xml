@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="AdobeTokens_Suite" thread-count="1"  parallel="tests">
+   	<test name="Editorial_Topic_Calgary">
+		<parameter name="name" value="Editorial_Topic_Calgary"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="subPageType" value="subPageType=topic"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=topic"/>
+		<parameter name="location" value="location=calgary"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/topic.calgary.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_EditorialTopicPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Editorial_Topic_Daesh">
+		<parameter name="name" value="Editorial_Topic_Calgary"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=section"/>
+		<parameter name="subPageType" value="subPageType=topic"/>
+		<parameter name="channel" value="channel=editorial"/>
+		<parameter name="template" value="template=topic"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=thestar.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/topic.daesh.html"/>
+		<classes>
+    		<class name="com.thestar.sanity.AdobeTokens_EditorialTopicPage_TestCase"/>
+ 		</classes>
+   	</test>
+  	           	 
+</suite>

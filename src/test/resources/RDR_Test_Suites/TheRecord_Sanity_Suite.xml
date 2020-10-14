@@ -1,0 +1,177 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Full_Sanity_Suite" thread-count="1"  parallel="tests">
+
+	<test name="Home_Page">
+		<parameter name="name" value="Home_Page"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+			<class name="com.thestar.sanity.HomePage_TestCase"/>
+		</classes>
+	</test>
+
+	<test name="AdobeTokens_Home_Page_testing">
+		<parameter name="name" value="Home_Location_NotSpecified"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="pageType" value="pageType=home"/>
+		<parameter name="channel" value="channel=home"/>
+		<parameter name="template" value="template=home-v1"/>
+		<parameter name="location" value="location=not-specified"/>
+		<parameter name="siteDomain" value="siteDomain=therecord.com"/>
+		<parameter name="commenting" value="commenting"/>
+		<parameter name="locked" value="locked"/>
+		<parameter name="metered" value="metered"/>
+		<parameter name="mobileInlay" value="mobileInlay"/>
+		<parameter name="overlay" value="overlay"/>
+		<parameter name="overlayRenew" value="overlayRenew"/>
+		<parameter name="overlaySub" value="overlaySub"/>
+		<parameter name="smartCampaign" value="smartCampaign"/>
+		<parameter name="toaster" value="toaster"/>
+		<parameter name="trust" value="trust"/>
+		<parameter name="mppData" value="mppData"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://qa4.niagarafallsreview.ca"/>
+		<classes>
+			<class name="com.thestar.sanity.AdobeTokens_HomePage_TestCase"/>
+		</classes>
+	</test>
+
+	<test name="Express checkout page test cases">
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+			<class name="com.thestar.sanity.ExpressCheckoutPage_TestCase"/>
+		</classes>
+	</test>
+
+
+	<test name="Anonymous_Subscription_Chrome">
+	<parameter name="name" value="Anonymous_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+
+
+    <test name="Registered_Subscription_Chrome">
+	<parameter name="name" value="Registered_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://qa4.therecord.com"/>
+     	<classes>
+        <class name="com.thestar.sanity.RegisteredSubscription_TestCases"/>
+     	</classes>
+  	 </test>
+
+
+   	<test name="Basic_Subscription_Chrome">
+	<parameter name="name" value="Basic_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://qa4.therecord.com"/>
+     	<classes>
+     	<class name="com.thestar.sanity.BasicSubscription_TestCases"/>
+     	</classes>
+   	</test>
+
+
+	<test name="Article_Page">
+	<parameter name="name" value="Article_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.ArticlePage_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+   	<test name="Topic_Page">
+	<parameter name="name" value="Topic_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.TopicPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+   	<test name="Author_Page">
+	<parameter name="name" value="Author_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.AuthorPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+   	<test name="Cartoon_Page">
+	<parameter name="name" value="Cartoon_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.CartoonPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+   	<test name="Video_Page">
+	<parameter name="name" value="Video_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.VideoPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+   	<test name="SlideShow_Page">
+	<parameter name="name" value="SlideShow_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.SlideShowPage_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+   	<test name="SponsoredArticle_Page">
+	<parameter name="name" value="SponsoredArticle_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.SponsoredArticlePage_TestCase"/>
+ 		</classes>
+   	</test>
+
+
+   	<test name="Social_Login_FaceBook">
+	<parameter name="name" value="Social_Login_Face_Book"/>
+	<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.Social_Login_FaceBook_TestCase"/>
+ 		</classes>
+   	</test>
+
+   	<test name="Doctor_DB">
+	<parameter name="name" value="Doctor_DB"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+			<class name="com.thestar.sanity.DoctorDataBase_TestCase"/>
+		</classes>
+	</test>
+
+	<test name="DAPS flow testing">
+		<parameter name="name" value="DAPS flow testing"/>
+		<parameter name="browser" value="Local_Chrome"/>
+		<parameter name="url" value="https://qa4.therecord.com"/>
+		<classes>
+			<class name="com.thestar.sanity.DAPSFlow_TestCase"/>
+		</classes>
+	</test>
+
+
+</suite>

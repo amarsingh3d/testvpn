@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Regression_Suite_Subscription" thread-count="8"  parallel="tests">
+	  	
+   	<test name="Anonymous_Subscription_iPhone_XS">
+	<parameter name="browser" value="iPhone_XS"/>
+	<parameter name="user" value="Anonymous_iPhone_XS_Subscription Regression Suite"/>
+		<classes>
+    	<class name="com.thestar.sanity.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+   	
+    <test name="Registered_Subscription_iPhone_8">
+    <parameter name="browser" value="iPhone_8"/>
+    <parameter name="user" value="Registered_iPhone_8_Subscription Regression Suite"/>
+     	<classes>
+        <class name="com.thestar.sanity.RegisteredSubscription_TestCases"/>
+     	</classes>
+  	 </test>	
+   
+   	<test name="Basic_Subscription_iPhone_7">
+   	<parameter name="browser" value="iPhone_7"/>
+   	<parameter name="user" value="Basic_iPhone_7_Subscription Regression Suite"/>
+     	<classes>
+     	<class name="com.thestar.sanity.BasicSubscription_TestCases"/>
+     	</classes>
+   	</test>
+    	   
+</suite>

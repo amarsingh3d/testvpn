@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Adobe_Analytics_Tracking" thread-count="1"  parallel="tests">
+	
+	<test name="Windows7_Chrome_Home">
+	<parameter name="name" value="Windows7_Chrome_Home"/>
+	<parameter name="browser" value="Windows7_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+             	 
+</suite>

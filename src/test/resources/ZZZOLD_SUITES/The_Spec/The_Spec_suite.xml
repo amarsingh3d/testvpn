@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Adobe_Analytics_Tracking" thread-count="1"  parallel="tests">
+	
+	<test name="MPP_Config_Test">
+	<parameter name="name" value="MPP_Config_Test"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thespec.sanity.MPP_Config_Test_TestCase"/>
+ 		</classes>
+   	</test>
+   	  	           	 
+</suite>

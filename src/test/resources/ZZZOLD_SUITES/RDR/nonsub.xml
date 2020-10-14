@@ -1,0 +1,165 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Regression_Suite_Subscription" thread-count="1"  parallel="tests">
+  	<test name="Topic_Page">
+	<parameter name="name" value="Topic_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.TopicPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Author_Page">
+	<parameter name="name" value="Author_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.AuthorPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Cartoon_Page">
+	<parameter name="name" value="Cartoon_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.CartoonPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Video_Page">
+	<parameter name="name" value="Video_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.VideoPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="SlideShow_Page">
+	<parameter name="name" value="SlideShow_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.SlideShowPage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="SponsoredArticle_Page">
+	<parameter name="name" value="SponsoredArticle_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.SponsoredArticlePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Article_Page">
+	<parameter name="name" value="Article_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.ArticlePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Home_Page">
+	<parameter name="name" value="Home_Page"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.HomePage_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="InvalidForTS">
+	<parameter name="name" value="InvalidForTS"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.rdr.sanity.RDRInvalidFromTS_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Parsley_Liftniter_Validation">
+	<parameter name="name" value="Parsley_Liftniter_Validation"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Parsley_Li_Validation_TestCase"/>
+ 		</classes>
+   	</test> 
+   	
+   	
+   	<test name="Adobe_Analytics_Tracking_Local_Chrome_Home">
+	<parameter name="name" value="Local_Chrome_Home"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>  	     
+   	
+   	
+   	<test name="NewUserRegistration">
+	<parameter name="name" value="NewUserRegistration"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.RegistrationFlow_TestCase"/>
+ 		</classes>
+   	</test>
+   	      	 
+   	
+   	   	
+   	<test name="Social_Login_Face_Book">
+	<parameter name="name" value="Social_Login_Face_Book"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Social_Login_FaceBook_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Anonymous_Subscription_Chrome">
+	<parameter name="name" value="Anonymous_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	   	
+    <test name="Registered_Subscription_Chrome">
+	<parameter name="name" value="Registered_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+     	<classes>
+        <class name="com.thestar.sanity.RegisteredSubscription_TestCases"/>
+     	</classes>
+  	 </test>
+  	 
+  	   
+   	<test name="Basic_Subscription_Chrome">
+	<parameter name="name" value="Basic_Subscription_Chrome"/>
+	<parameter name="browser" value="Local_Chrome"/>
+	<parameter name="url" value=""/>
+     	<classes>
+     	<class name="com.thestar.sanity.BasicSubscription_TestCases"/>
+     	</classes>
+   	</test>
+   	
+   	   	   
+</suite>

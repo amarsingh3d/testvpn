@@ -1,0 +1,74 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Full_Sanity_Suite" thread-count="1"  parallel="tests">	   	
+   	<test name="ie11_Sign_in_Issue">
+	<parameter name="name" value="ie11_Sign_in_Issue"/>
+	<parameter name="browser" value="Windows7_IE11"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/"/>
+		<classes>
+    	<class name="com.thestar.sanity.ie11_Sign_in_Issue_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+     	  	
+	<test name="Adobe_Analytics_Tracking_Windows7_Chrome_Home">
+	<parameter name="name" value="Windows7_Chrome_Home"/>
+	<parameter name="browser" value="Windows7_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	  	
+   	<test name="Adobe_Analytics_Tracking_Windows7_Firefox_Home">
+	<parameter name="name" value="Windows7_Firefox_Home"/>
+	<parameter name="browser" value="Windows7_Firefox"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+  
+     	
+   	<test name="Adobe_Analytics_Tracking_Windows10_Chrome_Home">
+	<parameter name="name" value="Windows10_Chrome_Home"/>
+	<parameter name="browser" value="Windows10_Chrome"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	  	
+   	<test name="Adobe_Analytics_Tracking_Windows10_Firefox_Home">
+	<parameter name="name" value="Windows10_Firefox_Home"/>
+	<parameter name="browser" value="Windows10_Firefox"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+      	
+   	
+   	<test name="Adobe_Analytics_Tracking_Windows10_Edge_Home">
+	<parameter name="name" value="Windows10_Edge_Home"/>
+	<parameter name="browser" value="Windows10_Edge"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	
+   	<test name="Adobe_Analytics_Tracking_MojaveX_Safari_Home">
+	<parameter name="name" value="MojaveX_Safari_Home"/>
+	<parameter name="browser" value="MojaveX_Safari"/>
+		<parameter name="url" value="https://reactqa2.smgdigitaldev.com/"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	           	 
+</suite>

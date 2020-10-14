@@ -1,0 +1,207 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Regression_Suite_RC_VOTING" thread-count="1"  parallel="tests">
+   	
+  	<test name="Ajax Pickering">
+	<parameter name="signinpagexml" value="https://www.durhamregion.com/user/login/"/>
+	<parameter name="url" value="https://www.durhamregion.com/readerschoice-ajaxpickering/"/>
+		<classes>
+    	<class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Barrie">
+   	<parameter name="signinpagexml" value="https://www.simcoe.com/user/login/"/>
+	<parameter name="url" value="https://www.simcoe.com/readerschoice-barrie/"/>
+		<classes>
+    	<class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Brampton Guardian">
+   	<parameter name="signinpagexml" value="https://www.bramptonguardian.com/user/login/"/>
+	<parameter name="url" value="https://www.bramptonguardian.com/readerschoice/"/>
+		<classes>
+    	<class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+ 		</classes>
+   	</test>
+   	
+     	
+    <test name="Cambridge Times">
+    <parameter name="signinpagexml" value="https://www.cambridgetimes.ca/user/login/"/>
+    <parameter name="url" value="http://cambridgetimes.ca/readerschoice/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	 </test>
+  	 
+  	<test name="Clarington">
+  	<parameter name="signinpagexml" value="https://www.durhamregion.com/user/login/"/>
+    <parameter name="url" value="http://durhamregion.com/readerschoice-clarington/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>  	
+  	
+    <test name="Flamborough Review">
+    <parameter name="signinpagexml" value="https://www.flamboroughreview.com/user/login/"/>
+    <parameter name="url" value="https://www.flamboroughreview.com/readerschoice/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>  	
+  	
+  	<test name="Guelph Mercury">
+  	<parameter name="signinpagexml" value="https://www.guelphmercury.com/user/login/"/>
+    <parameter name="url" value="http://guelphmercury.com/readerschoice/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>  
+  	
+<!--  	<test name="Halifax">-->
+<!--  	<parameter name="signinpagexml" value="http://thestar.com/sign-in/"/>-->
+<!--    <parameter name="url" value="http://thestar.com/readerschoice-halifax/"/>-->
+<!--       	<classes>-->
+<!--        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>-->
+<!--     	</classes>-->
+<!--  	</test>-->
+  	
+  	<test name="The Spec">
+  	<parameter name="signinpagexml" value="http://thespec.com/user/login/"/>
+    <parameter name="url" value="http://thespec.com/readerschoice/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>
+  	
+  	<test name="Milton">
+  	<parameter name="signinpagexml" value="http://insidehalton.com/user/login/"/>
+    <parameter name="url" value="http://insidehalton.com/readerschoice-milton/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test> 
+  	
+  	<test name="Mississauga">
+  	<parameter name="signinpagexml" value="http://mississauga.com/user/login/"/>
+    <parameter name="url" value="http://mississauga.com/readerschoice/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>  
+  	
+  	<test name="Niagara Falls Review">
+  	<parameter name="signinpagexml" value="http://niagarafallsreview.ca/user/login/"/>
+    <parameter name="url" value="http://niagarafallsreview.ca/readerschoice/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>
+  	
+  	<test name="North Humberland News">
+  	<parameter name="signinpagexml" value="http://northumberlandnews.com/user/login/"/>
+    <parameter name="url" value="http://northumberlandnews.com/readerschoice-northumberland/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>  
+  	
+  	<test name="Oakville">
+  	<parameter name="signinpagexml" value="http://insidehalton.com/user/login/"/>
+    <parameter name="url" value="http://insidehalton.com/readerschoice-oakville/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>
+  	
+  	<test name="Oshwa Whitby">
+  	<parameter name="signinpagexml" value="http://durhamregion.com/user/login/"/>
+    <parameter name="url" value="http://durhamregion.com/readerschoice-oshawawhitby/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>  
+  	
+<!--  	<test name="The Peterborough Examiner">-->
+<!--  	<parameter name="signinpagexml" value="http://thepeterboroughexaminer.com/user/login/"/>-->
+<!--    <parameter name="url" value="http://thepeterboroughexaminer.com/readerschoice/"/>-->
+<!--       	<classes>-->
+<!--        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>-->
+<!--     	</classes>-->
+<!--  	</test>-->
+  	
+  	<test name="Port Perry">
+  	<parameter name="signinpagexml" value="http://durhamregion.com/user/login/"/>
+    <parameter name="url" value="http://durhamregion.com/readerschoice-portperry/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>  
+  	
+<!--  	<test name="The Record">-->
+<!--  	<parameter name="signinpagexml" value="http://therecord.com/user/login/"/>-->
+<!--    <parameter name="url" value="http://therecord.com/readerschoice/"/>-->
+<!--       	<classes>-->
+<!--        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>-->
+<!--     	</classes>-->
+<!--  	</test>-->
+  	
+  	<test name="Sachem">
+  	<parameter name="signinpagexml" value="http://sachem.ca/user/login/"/>
+    <parameter name="url" value="http://sachem.ca/readerschoice/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>  
+  	
+<!--  	<test name="Scarborough">-->
+<!--  	<parameter name="signinpagexml" value="http://toronto.com/user/login/"/>-->
+<!--    <parameter name="url" value="http://toronto.com/readerschoice-scarborough/"/>-->
+<!--       	<classes>-->
+<!--        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>-->
+<!--     	</classes>-->
+<!--  	</test>-->
+  	
+<!--  	<test name="South Georgian Bay">-->
+<!--  	<parameter name="signinpagexml" value="http://simcoe.com/user/login/"/>-->
+<!--    <parameter name="url" value="http://simcoe.com/readerschoice-southgeorgianbay/"/>-->
+<!--       	<classes>-->
+<!--        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>-->
+<!--     	</classes>-->
+<!--  	</test>  -->
+  	
+<!--  	<test name="St. Catherine Standards">-->
+<!--  	<parameter name="signinpagexml" value="http://stcatharinesstandard.ca/user/login/"/>-->
+<!--    <parameter name="url" value="http://stcatharinesstandard.ca/readerschoice/"/>-->
+<!--       	<classes>-->
+<!--        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>-->
+<!--     	</classes>-->
+<!--  	</test>-->
+<!--  	-->
+<!--  	<test name="Toronto">-->
+<!--  	<parameter name="signinpagexml" value="http://thestar.com/sign-in/"/>-->
+<!--    <parameter name="url" value="http://thestar.com/readerschoice-toronto/"/>-->
+<!--       	<classes>-->
+<!--        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>-->
+<!--     	</classes>-->
+<!--  	</test>  -->
+  	
+  	<test name="Uxbridge">
+  	<parameter name="signinpagexml" value="http://durhamregion.com/user/login/"/>
+    <parameter name="url" value="http://durhamregion.com/readerschoice-uxbridge/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>
+     	</classes>
+  	</test>
+  	
+<!--  	<test name="Welland Tribune">-->
+<!--  	<parameter name="signinpagexml" value="http://wellandtribune.ca/user/login/"/>-->
+<!--    <parameter name="url" value="http://wellandtribune.ca/readerschoice/"/>-->
+<!--       	<classes>-->
+<!--        <class name="com.thestar.readerschoice.ReadersChoiceHomePageLoginVotingTestCases"/>-->
+<!--     	</classes>-->
+<!--  	</test>  -->
+  
+    	 
+</suite>

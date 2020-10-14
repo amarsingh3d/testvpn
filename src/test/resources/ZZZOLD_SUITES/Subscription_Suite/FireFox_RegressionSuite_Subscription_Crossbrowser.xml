@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Regression_Suite_Subscription" thread-count="1"  parallel="tests">
+	<test name="Anonymous_Subscription_FireFox">
+	<parameter name="browser" value="FireFox"/>
+	<parameter name="user" value="Anonymous"/>
+		<classes>
+    	<class name="com.thestar.subscription.AnonymousSubscriptionTestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	   	
+    <test name="Registered_Subscription_FireFox">
+    <parameter name="browser" value="FireFox"/>
+    <parameter name="user" value="Registered"/>
+     	<classes>
+        <class name="com.thestar.subscription.RegisteredSubscriptionTestCases"/>
+     	</classes>
+  	 </test>
+  	 
+  	   
+   	<test name="Basic_Subscription_FireFox">
+   	<parameter name="browser" value="FireFox"/>
+   	<parameter name="user" value="Basic"/>
+     	<classes>
+     	<class name="com.thestar.subscription.BasicSubscriptionTestCases"/>
+     	</classes>
+   	</test>
+   	
+   	  
+    <test name="Premium_Subscription_FireFox">
+  	<parameter name="browser" value="FireFox"/>
+  	<parameter name="user" value="Premium"/>
+     	<classes>
+        <class name="com.thestar.subscription.PremiumSubscriptionTestCases"/>
+     	</classes>
+   	</test>
+   	
+   	   	   
+</suite>

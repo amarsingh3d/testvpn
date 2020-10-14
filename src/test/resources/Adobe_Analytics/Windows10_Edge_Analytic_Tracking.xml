@@ -1,0 +1,320 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Adobe_Analytics_Tracking" thread-count="1"  parallel="tests">
+	
+	<test name="Windows10_Edge_Home">
+	<parameter name="name" value="Windows10_Edge_Home"/>
+	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value=""/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_News">
+   	<parameter name="name" value="Windows10_Edge_News"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Subscribe">
+   	<parameter name="name" value="Windows10_Edge_Subscribe"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/subscribe"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Article">
+   	<parameter name="name" value="Windows10_Edge_Article"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news/crime/2015/12/22/ttc-passenger-kicked-in-fight-over-foot-on-seat.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_PhotoGallery">
+   	<parameter name="name" value="Windows10_Edge_PhotoGallery"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news/gta/2016/02/29/meet-some-leap-year-babies.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_PhotoInBody">
+   	<parameter name="name" value="Windows10_Edge_PhotoInBody"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/life/parent/2015/11/26/richard-and-rana-floridas-long-journey-to-baby-mila.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_VotePage">
+   	<parameter name="name" value="Windows10_Edge_VotePage"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/federal-election.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Topic">
+   	<parameter name="name" value="Windows10_Edge_Topic"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/topic.novak_djokovic.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Author">
+   	<parameter name="name" value="Windows10_Edge_Author"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/authors.goar_carol.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	   	
+   	<test name="Windows10_Edge_MultipleTweets">
+   	<parameter name="name" value="Windows10_Edge_MultipleTweets"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news/world/2015/06/04/boycotttims-trends-on-twitter-after-coffee-companys-decision-to-pull-enbridge-ads.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Search">
+   	<parameter name="name" value="Windows10_Edge_Search"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/search.html?q=good"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_HTML5">
+   	<parameter name="name" value="Windows10_Edge_HTML5"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news/jian-ghomeshi/2016/03/24/jian-ghomeshi-verdict.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_BlogSection">
+   	<parameter name="name" value="Windows10_Edge_BlogSection"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/sports/doug_smiths_sports_blog.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_BlogArticle">
+   	<parameter name="name" value="Windows10_Edge_BlogArticle"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/sports/doug_smiths_sports_blog/2016/02/a-30-game-period-to-find-out-what-the-raptors-are-made-of.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_SlideShowTypePage">
+   	<parameter name="name" value="Windows10_Edge_SlideShowTypePage"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/life/homes/your-garden-mark-cullen/2015/04/13/start-your-garden-picture-how-good-it-will-be.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_VideoTypePage">
+   	<parameter name="name" value="Windows10_Edge_VideoTypePage"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news/gta/2018/05/03/van-rampage-victims-friend-remembers-caring-woman-at-funeral.jsonp.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_StoryWithSlideShowInTheMainArt">
+   	<parameter name="name" value="Windows10_Edge_StoryWithSlideShowInTheMainArt"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news/gta/2019/05/12/torontos-beloved-matador-sold-to-condo-developers-it-feels-like-losing-a-family-member.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_StoryWithVideoInTheMainArt">
+   	<parameter name="name" value="Windows10_Edge_StoryWithVideoInTheMainArt"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/business/tech_news/2017/09/12/apples-releasing-a-new-iphone-and-heres-what-to-expect-at-the-launch-event.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_TodayNews">
+   	<parameter name="name" value="Windows10_Edge_TodayNews"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/todaysnews.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_ArticleUnderSponsoredSection">
+   	<parameter name="name" value="Windows10_Edge_ArticleUnderSponsoredSection"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/sponsored_sections/insurance-resource/2019/05/01/ontario-auto-insurance-proposals-to-cut-costs--red-tape.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_HTML5TwitterGenericImageYoutubeFacebookInstagramTimeline">
+   	<parameter name="name" value="Windows10_Edge_HTML5TwitterGenericImageYoutubeFacebookInstagramTimeline"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/entertainment/2016/06/22/luminato-chairs-journey-to-toronto-arts-prominence.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_VerticalImage">
+   	<parameter name="name" value="Windows10_Edge_VerticalImage"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news/gta/2016/06/23/grimsby-graduates-get-top-marks-for-car-on-roof-prank.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   
+   	<test name="Windows10_Edge_StarRating">
+   	<parameter name="name" value="Windows10_Edge_StarRating"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/entertainment/movies/2015/08/06/fans-will-flock-to-shaun-the-sheep-the-movie-review.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_EditorialPage">
+   	<parameter name="name" value="Windows10_Edge_EditorialPage"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/opinion/editorial_cartoon/2016/07/26/theo-moudakis-proud-uncle.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_StarInvestigation">
+   	<parameter name="name" value="Windows10_Edge_StarInvestigation"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news/investigations.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Opinion">
+   	<parameter name="name" value="Windows10_Edge_Opinion"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/opinion.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Canada">
+   	<parameter name="name" value="Windows10_Edge_Canada"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news/canada.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Business">
+   	<parameter name="name" value="Windows10_Edge_Business"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/business.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_ManageNewsLetter">
+   	<parameter name="name" value="Windows10_Edge_ManageNewsLetter"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/emails.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Vancouver">
+   	<parameter name="name" value="Windows10_Edge_Vancouver"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/vancouver/2018/04/27/health-officials-and-police-dealing-with-increase-of-overdoses-in-vancouver-victoria.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Calgary">
+   	<parameter name="name" value="Windows10_Edge_Calgary"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/calgary/2018/04/24/budget-for-springbank-flood-mitigation-land-triples.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Edmonton">
+   	<parameter name="name" value="Windows10_Edge_Edmonton"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/edmonton/2018/04/24/edmonton-gas-prices-see-biggest-one-day-increase-in-five-years.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Halifax">
+   	<parameter name="name" value="Windows10_Edge_Halifax"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/halifax/2018/04/28/off-ice-chirps-irving-gas-station-manager-sells-leafs-fans-tears-after-early-playoff-knockout.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_Toronto">
+   	<parameter name="name" value="Windows10_Edge_Toronto"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/news/gta/2018/04/30/man-rams-toronto-police-cruiser-with-stolen-porsche.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="Windows10_Edge_ULLI">
+   	<parameter name="name" value="Windows10_Edge_ULLI"/>
+   	<parameter name="browser" value="Windows10_Edge"/>
+	<parameter name="url" value="/yourtoronto/education/2016/06/17/school-board-byelection-slated-for-monday-in-downtown-ward.html"/>
+		<classes>
+    	<class name="com.thestar.sanity.Adobe_Analytics_Tracking_TestCase"/>
+ 		</classes>
+   	</test>
+   	
+</suite>

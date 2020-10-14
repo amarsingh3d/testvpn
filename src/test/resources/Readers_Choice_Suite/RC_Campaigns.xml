@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="Readers Chaise " thread-count="1"  parallel="tests">
+	
+	  	
+   	<test name="Barrie">
+	<parameter name="url" value="https://www.simcoe.com/readerschoice-barrie/"/>
+		<classes>
+    	<class name="com.thestar.readerschoice.ReadersChoiceGUITestCases"/>
+ 		</classes>
+   	</test>
+   	
+   	<test name="North Humberland News">
+    <parameter name="url" value="http://northumberlandnews.com/readerschoice-northumberland/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceGUITestCases"/>
+     	</classes>
+  	</test> 
+   	
+   	<test name="Brampton Guardian">
+	<parameter name="url" value="https://www.bramptonguardian.com/readerschoice/"/>
+		<classes>
+    	<class name="com.thestar.readerschoice.ReadersChoiceGUITestCases"/>
+ 		</classes>
+   	</test>
+    
+  	
+  	<test name="Milton">
+    <parameter name="url" value="http://insidehalton.com/readerschoice-milton/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceGUITestCases"/>
+     	</classes>
+  	</test> 
+  	
+  	
+  	<test name="Toronto">
+    <parameter name="url" value="http://thestar.com/readerschoice-toronto/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceGUITestCases"/>
+     	</classes>
+  	</test>  
+  	
+  	<test name="Welland Tribune">
+    <parameter name="url" value="http://wellandtribune.ca/readerschoice/"/>
+       	<classes>
+        <class name="com.thestar.readerschoice.ReadersChoiceGUITestCases"/>
+     	</classes>
+  	</test>  
+    	 
+</suite>
