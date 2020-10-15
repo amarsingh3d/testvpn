@@ -60,7 +60,7 @@ jobs:
             echo -e 'alex\n3CW6ZbhhF5kvzAfV' > /tmp/vpn.txt
             ls -l /tmp/
             cat vpn.txt 
-            openvpn --config /tmp/config.ovpn --auth-user-pass /tmp/vpn.txt \
+            sudo openvpn --config /tmp/config.ovpn --auth-user-pass /tmp/vpn.txt \
             --route $phone_home 255.255.255.255 net_gateway \
             --route 169.254.0.0 255.255.0.0 net_gateway
 
