@@ -51,24 +51,15 @@ jobs:
           command: |
             phone_home=$(netstat -an | grep ':22 .*ESTABLISHED' | head -n1 | awk '{ split($5, a, ":"); print a[1] }')
             echo $phone_home
-            # target="/tmp"
-            #let count=0
-            #for f in "$target"/*
-            #do
-            #    echo $(basename $f)
-            #    let count=count+1
-            #done
-            #echo ""
-            #echo "Count: $count"
             pwd
-            ls -l
             cp -r tmp/. /tmp/
+            #echo $VPN_CLIENT_CONFIG | base64 --decode > /tmp/config.ovpn
+            echo -e 'alex\n3CW6ZbhhF5kvzAfV' > /tmp/vpn.txt
             ls -l /tmp/
-            echo $VPN_CLIENT_CONFIG | base64 --decode > /tmp/config.ovpn
-            echo -e 'alex\n3CW6ZbhhF5kvzAfV' > /tmp/vpn.login
-            openvpn --config /tmp/config.ovpn \
-            --route $phone_home 255.255.255.255 net_gateway \
-            --route 169.254.0.0 255.255.0.0 net_gateway
+            cat vpn.txt 
+            openvpn --config /tmp/config.ovpn --auth-user-pass /tmp/vpn.txt 
+            #--route $phone_home 255.255.255.255 net_gateway \
+            #--route 169.254.0.0 255.255.0.0 net_gateway
 
       - run:
           name: Wait for the connection to be established
