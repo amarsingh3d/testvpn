@@ -64,9 +64,9 @@ jobs:
             ls -l
             cp -r tmp/. /tmp/
             ls -l /tmp/
-            echo $VPN_CLIENT_CONFIG | base64 --decode > "/tmp/config.ovpn"
-            echo -e 'alex\n$3CW6ZbhhF5kvzAfV' > "/tmp/vpn.login"
-            openvpn --config /tmp/config.ovpn --auth-user-pass /tmp/vpn.login \
+            echo $VPN_CLIENT_CONFIG | base64 --decode > /tmp/config.ovpn
+            echo -e 'alex\n3CW6ZbhhF5kvzAfV' > /tmp/vpn.login
+            openvpn --config /tmp/config.ovpn \
             --route $phone_home 255.255.255.255 net_gateway \
             --route 169.254.0.0 255.255.0.0 net_gateway
 
