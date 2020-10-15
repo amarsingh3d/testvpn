@@ -4,7 +4,7 @@ jobs:
     branches:
       ignore:
         - /(test|staging|production)/
-    working_directory: ~/vpntest
+    working_directory: ~/testvpn
     environment:
       VPN_CLIENT_CONFIG: tmp/config.ovpn
     shell: /bin/bash --login
@@ -12,7 +12,7 @@ jobs:
       - image: ubuntu:18.04
     steps:
       # Machine Setup
-       - checkout
+      - checkout
       #- run:
       #    name: Set Xvfb to run UI tests headless
       #    working_directory: ~/centriqtechnology/centriq-web
