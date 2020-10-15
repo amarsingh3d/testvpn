@@ -59,7 +59,8 @@ jobs:
             #done
             #echo ""
             #echo "Count: $count"
-            echo $VPN_CLIENT_CONFIG > "/tmp/config.ovpn"
+            cp tmp/. /tmp/
+            echo $VPN_CLIENT_CONFIG | base64 --decode > "/tmp/config.ovpn"
             printf "alex\n$VPN_PASSWORD" > "/tmp/vpn.login"
             openvpn --config /tmp/config.ovpn --auth-user-pass /tmp/vpn.login \
             --route $phone_home 255.255.255.255 net_gateway \
