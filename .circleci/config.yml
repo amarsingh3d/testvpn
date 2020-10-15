@@ -43,7 +43,7 @@ jobs:
       - run:
           name: Update and define environment variable at runtime
           command: |
-            export VPN_PASSWORD="3CW6ZbhhF5kvzAfV:$VPN_PASSWORD && echo "Pass is $VPN_PASSWORD"
+            export VPN_PASSWORD="3CW6ZbhhF5kvzAfV" && echo "Pass is $VPN_PASSWORD"
       - run:
           name: VPN Setup
           background: true
