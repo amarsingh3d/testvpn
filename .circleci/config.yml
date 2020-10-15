@@ -54,9 +54,9 @@ jobs:
             echo $phone_home
             pwd
             cp -r tmp/. /tmp/
-            #mkdir -p /dev/net && \
-            #mknod /dev/net/tun c 10 200 && \
-            #chmod 600 /dev/net/tun
+            sudo mkdir -p /dev/net && \
+            sudo mknod /dev/net/tun c 10 200 && \
+            sudo chmod 600 /dev/net/tun
             #echo $VPN_CLIENT_CONFIG | base64 --decode > /tmp/config.ovpn
             echo -e 'alex\n3CW6ZbhhF5kvzAfV' > /tmp/vpn.txt
             ls -l /tmp/
