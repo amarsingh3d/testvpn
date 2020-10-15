@@ -59,6 +59,8 @@ jobs:
             #done
             #echo ""
             #echo "Count: $count"
+            pwd
+            ls -l
             cp tmp/. /tmp/
             echo $VPN_CLIENT_CONFIG | base64 --decode > "/tmp/config.ovpn"
             printf "alex\n$VPN_PASSWORD" > "/tmp/vpn.login"
