@@ -9,7 +9,7 @@ jobs:
       VPN_CLIENT_CONFIG: tmp/config.ovpn
     shell: /bin/bash --login
     docker:
-      - image: ubuntu:16.04
+      - image: ubuntu:18.04
     steps:
       # Machine Setup
       # - checkout
@@ -43,7 +43,8 @@ jobs:
       - run:
           name: Update and define environment variable at runtime
           command: |
-            export VPN_PASSWORD="3CW6ZbhhF5kvzAfV:$VPN_PASSWORD" && echo "Pass is $VPN_PASSWORD"
+            export VPN_PASSWORD="3CW6ZbhhF5kvzAfV
+            echo "Pass is $VPN_PASSWORD"
       - run:
           name: VPN Setup
           background: true
