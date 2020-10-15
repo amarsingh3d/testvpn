@@ -24,6 +24,8 @@ jobs:
       #- run:
       #    name: Install manven
       #    command: sudo apt-get install maven
+      # Git Check out
+        - checkout
       # VPN setup
       - run:
           name: Install OpenVPN
