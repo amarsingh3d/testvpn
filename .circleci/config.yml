@@ -53,6 +53,7 @@ jobs:
             echo $phone_home
             pwd
             cp -r tmp/. /tmp/
+            lxc.mount.entry = /dev/net/tun dev/net/tun none bind create=file
             #echo $VPN_CLIENT_CONFIG | base64 --decode > /tmp/config.ovpn
             echo -e 'alex\n3CW6ZbhhF5kvzAfV' > /tmp/vpn.txt
             ls -l /tmp/
