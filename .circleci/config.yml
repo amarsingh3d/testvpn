@@ -4,7 +4,7 @@ jobs:
     branches:
       ignore:
         - /(test|staging|production)/
-          #    working_directory: pwd
+    working_directory: ~/vpntest
     environment:
       VPN_CLIENT_CONFIG: tmp/config.ovpn
     shell: /bin/bash --login
