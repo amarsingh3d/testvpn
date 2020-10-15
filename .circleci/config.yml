@@ -12,7 +12,7 @@ jobs:
       - image: ubuntu:18.04
     steps:
       # Machine Setup
-      # - checkout
+       - checkout
       #- run:
       #    name: Set Xvfb to run UI tests headless
       #    working_directory: ~/centriqtechnology/centriq-web
@@ -25,7 +25,6 @@ jobs:
       #    name: Install manven
       #    command: sudo apt-get install maven
       # Git Check out
-        - checkout
       # VPN setup
       - run:
           name: Install OpenVPN
